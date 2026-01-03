@@ -1,0 +1,72 @@
+/* LogoSlider.css */
+
+.screenshots-container {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    background: white;
+    border-radius: 12px;
+    padding: 20px 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.left-gradient {
+    z-index: 11;
+    background-image: linear-gradient(90deg, #fff 20%, #ffffff00);
+    width: 8%;
+    max-width: 26%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.right-gradient {
+    z-index: 11;
+    background-image: linear-gradient(90deg, #ffffff00, #fff 80%);
+    width: 8%;
+    max-width: 26%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.screenshots {
+    display: flex;
+    gap: 30px;
+    animation: slide1 100s linear infinite;
+}
+
+.screenshots img {
+    width: 210px;
+    object-fit: contain;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.screenshots img:hover {
+    transform: scale(1.05);
+}
+
+@keyframes slide1 {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-800%);
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    .screenshots img {
+        width: 180px;
+        object-fit: contain;
+    }
+
+    .screenshots {
+        animation: slide1 40s linear infinite;
+    }
+}

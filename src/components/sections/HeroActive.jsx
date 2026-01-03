@@ -4,8 +4,9 @@ import Button from '../Button';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import AnimatedCounter from '../AnimatedCounter';
+import LogoSlider from './LogoSlider';
 
-const Hero = () => {
+const HeroActive = () => {
   useGSAP(() => {
     gsap.fromTo(
       '.hero-text h1',
@@ -31,7 +32,7 @@ const Hero = () => {
           <div className='flex flex-col gap-7'>
             <div className='hero-text'>
               <h1>
-                I create
+                I don't just create
                 <span className='slide'>
                   <span className='wrapper'>
                     {words.map((word) => (
@@ -51,17 +52,21 @@ const Hero = () => {
                 </span>
               </h1>
 
-              <h1>I architect complete solution </h1>
+              <h1>I architect complete solutions </h1>
            
             </div>
-            <p className='text-white-50 md:text-xl relative z-10 pointer-events-none max-w-[300px] text-center sm:max-w-[550px]'>
+            <p className='text-black-50 md:text-xl relative z-10 pointer-events-none max-w-[300px] text-center sm:max-w-[550px]'>
               Hi, I am Darlington, a software developer, I leverage cutting-edge technology to create end-to-end products that work flawlessly and deliver measurable results.
             </p>
+              <p className='text-black-50 md:text-xl relative z-10 pointer-events-none max-w-[300px] text-center sm:max-w-[550px]'>
+          ✨ Top-Rated Developer (top 10% of all talent on Upwork) with a consistent track record of 5-star reviews from nearly every client, reflecting dedication to consistently going above and beyond expectations.
+            </p>
+          
             <div className='flex flex-col items-center justify-center mx-auto'>
               <Button
                 className='  md:w-80 md:h-16 w-60 h-12'
                 id='button'
-                text='See my Work'
+                text='My Upwork profile'
               />
             </div>
           </div>
@@ -72,16 +77,11 @@ const Hero = () => {
             <HeroExperience />
           </div>
         </figure> */}
-        <div className=' w-[60%] xl:w-[80%] h-[350px] flex items-center justify-center mx-auto my-0 xl:px-20  '>
-          <img
-            src='/images/nicePix.jpeg'
-            alt='hero image'
-          />
-        </div>
       </div>
-      <AnimatedCounter />
+            <LogoSlider/>
+                <AnimatedCounter />
     </section>
   );
 };
 
-export default Hero;
+export default HeroActive;

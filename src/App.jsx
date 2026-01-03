@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar/Navbar';
-import Hero from './components/sections/Hero';
+import HeroActive from './components/sections/HeroActive';
 import ShowcaseSection from './components/sections/ShowcaseSection';
 import SoftSkills from './components/sections/SoftSkills';
 import Experience from './components/sections/Experience';
@@ -9,7 +9,8 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <Hero/>
+      <HeroActive/>
+    
       <ShowcaseSection/>
       <SoftSkills/>
       <Experience/>
