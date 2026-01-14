@@ -5,8 +5,8 @@
 
 html,
 body {
-  width: 100dvw;
-  overflow-x: hidden;
+  width: 100%;
+
   background-color: white;
   color: #2f2f2f;
   scroll-behavior: smooth;
@@ -14,7 +14,8 @@ body {
 }
 
 section {
-  width: 100dvw;
+  width: 90%;
+  margin: auto;
 }
 
 @theme {

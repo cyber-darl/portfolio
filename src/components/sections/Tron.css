@@ -1,0 +1,231 @@
+.tron-container {
+  max-width: 100%;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  min-height: 200vh;
+}
+
+.tron-header {
+  text-align: center;
+  padding: 100px 20px 150px;
+  color: #f8fafc;
+
+}
+
+.white-tron{
+  background: white;
+}
+.black-tron{
+  background: black;
+}
+
+.tron-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 2px 10px rgba(56, 189, 248, 0.2);
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #cbd5e1;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.content-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f8fafc;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.content-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+.content-section p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #cbd5e1;
+}
+
+/* Image Section - The core of the effect */
+.image-section {
+  position: relative;
+  width: 100%;
+  height: 200vh;
+}
+
+/* The main container that handles all states */
+.image-main-container {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Image containers */
+.image-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Full width rectangular images */
+.full-width-image {
+  padding-top: 24px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+/* Image 1 - Top layer, gets masked */
+.image-1 {
+  z-index: 2;
+}
+
+/* Image 2 - Bottom layer, always fully visible */
+.image-2 {
+  z-index: 1;
+  width: 99.89%;
+}
+
+/* Content overlay for images */
+.image-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 600px;
+  width: 90%;
+  pointer-events: none;
+}
+
+.image-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.image-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.image-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+.tron-footer {
+  text-align: center;
+  padding: 100px 20px;
+  color: #94a3b8;
+  min-height: 100vh;
+}
+
+.scroll-direction {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-family: monospace;
+  z-index: 1000;
+  transition: background-color 0.3s ease, opacity 1s ease;
+}
+
+.scroll-direction.down {
+  background-color: rgba(59, 130, 246, 0.7);
+}
+
+.scroll-direction.up {
+  background-color: rgba(34, 197, 94, 0.7);
+}
+
+.direction-text {
+  font-weight: bold;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: rgba(56, 189, 248, 0.2);
+  z-index: 1000;
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  width: 0%;
+  transition: width 0.1s ease;
+}
+
+/* Visual guide for peel direction */
+.peel-guide {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: rgba(56, 189, 248, 0.5);
+  z-index: 4;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .tron-header h1 {
+    font-size: 2.2rem;
+  }
+  
+  .image-content h2 {
+    font-size: 2rem;
+  }
+  
+  .image-content {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tron-header h1 {
+    font-size: 1.8rem;
+  }
+  
+  .image-content h2 {
+    font-size: 1.6rem;
+  }
+  
+  .image-icon {
+    font-size: 2.5rem;
+  }
+}
