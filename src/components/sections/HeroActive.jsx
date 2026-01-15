@@ -32,7 +32,7 @@ const HeroActive = () => {
           <div className='flex flex-col gap-7'>
             <div className='hero-text'>
               <h1>
-                I don't just create
+                I don't just
                 <span className='slide'>
                   <span className='wrapper'>
                     {words.map((word) => (
@@ -56,17 +56,17 @@ const HeroActive = () => {
            
             </div>
             <p className='text-black-50 md:text-xl relative z-10 pointer-events-none max-w-[300px] text-center sm:max-w-[550px]'>
-              Hi, I am Darlington, a software developer, I leverage cutting-edge technology to create end-to-end products that work flawlessly and deliver measurable results.
+              I create end-to-end products that work flawlessly and deliver measurable results.
             </p>
               <p className='text-black-50 md:text-xl relative z-10 pointer-events-none max-w-[300px] text-center sm:max-w-[550px]'>
-          ✨ Top-Rated Developer (top 10% of all talent on Upwork) with a consistent track record of 5-star reviews from nearly every client, reflecting dedication to consistently going above and beyond expectations.
+          ✨ Top-Rated Software Engineer (top 10% of all talent on Upwork) with a consistent track record of 5-star reviews from nearly every client, reflecting dedication to consistently going above and beyond expectations.
             </p>
           
             <div className='flex flex-col items-center justify-center mx-auto'>
               <Button
                 className='  md:w-80 md:h-16 w-60 h-12'
-                id='button'
-                text='My Upwork profile'
+                text='My Upwork Profile'
+                href = 'https://www.upwork.com/freelancers/~01a56c22fcbf96bd04'
               />
             </div>
           </div>

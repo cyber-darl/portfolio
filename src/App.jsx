@@ -4,6 +4,10 @@ import ShowcaseSection from './components/sections/ShowcaseSection';
 import SoftSkills from './components/sections/SoftSkills';
 import Experience from './components/sections/Experience';
 import Tron from './components/sections/tron';
+import TechStack from './components/sections/TechStack';
+import Testimonials from './components/sections/Testimonials';
+import Contact from './components/sections/Contact';
+import Footer from './components/sections/Footer';
 
 
 const App = () => {
@@ -16,6 +20,11 @@ const App = () => {
       <ShowcaseSection/>
       <SoftSkills/>
       <Experience/>
+      <TechStack/>
+      <Testimonials/>
+      <Contact/>
+      <Footer/>
+
         
           </>
   );

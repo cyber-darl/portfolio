@@ -31,7 +31,7 @@ const Hero = () => {
           <div className='flex flex-col gap-7'>
             <div className='hero-text'>
               <h1>
-                I create
+               
                 <span className='slide'>
                   <span className='wrapper'>
                     {words.map((word) => (
@@ -51,7 +51,7 @@ const Hero = () => {
                 </span>
               </h1>
 
-              <h1>I architect complete solution </h1>
+              <h1>I architect complete solutions </h1>
            
             </div>
             <p className='text-white-50 md:text-xl relative z-10 pointer-events-none max-w-[300px] text-center sm:max-w-[550px]'>
@@ -62,6 +62,7 @@ const Hero = () => {
                 className='  md:w-80 md:h-16 w-60 h-12'
                 id='button'
                 text='See my Work'
+                href="https://www.upwork.com/freelancers/~01a56c22fcbf96bd04"
               />
             </div>
           </div>
