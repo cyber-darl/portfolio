@@ -36,7 +36,7 @@ const TechStack = () => {
   });
 
   return (
-    <div
+    <section
       id='skills'
       className='flex-center section-padding'
     >
@@ -73,7 +73,7 @@ const TechStack = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

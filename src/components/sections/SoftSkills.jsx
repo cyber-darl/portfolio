@@ -4,7 +4,7 @@ import TitleHeader from '../TitleHeader';
 
 const SoftSkills = () => {
   return (
-    <div className='w-full padding-x-lg'>
+    <section className='soft-skills w-full padding-x-lg'>
       <TitleHeader
         title='Soft Skills'
         subtitle=''
@@ -26,7 +26,7 @@ const SoftSkills = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

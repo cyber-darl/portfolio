@@ -26,7 +26,7 @@ const HeroActive = () => {
         />
       </div>
 
-      <div className='flex flex-col xl:flex-row items-center justify-center mx-auto my-0 mb-[5rem] gap-10 xl:gap-0'>
+      <div className='flex flex-col xl:flex-row items-center justify-center mx-auto my-0 mb-[2rem] gap-10 xl:gap-0'>
         {/* left content */}
         <header className='flex flex-col justify-center items-center md:w-full w-screen md:px-20  md:mb-[12rem] lg:mb-[18rem] xl:mb-0'>
           <div className='flex flex-col gap-7'>
@@ -68,6 +68,9 @@ const HeroActive = () => {
                 text='My Upwork Profile'
                 href = 'https://www.upwork.com/freelancers/~01a56c22fcbf96bd04'
               />
+                <p className='text-black-50 md:text-xl relative z-10 pointer-events-none mt-[2rem] max-w-[300px] text-center sm:max-w-[550px]'>
+      I have a knack for creating automated workflows and integrations across a single app or multiple software. Hence, my prowess covers CRM, PM, Funnels, Websites and Webapps. I have proficiency in the platforms below:
+            </p>
             </div>
           </div>
         </header>

@@ -7,17 +7,28 @@ html,
 body {
   width: 100%;
 
-  background-color: white;
-  color: #2f2f2f;
+  background-color: black;
+  color: white;
   scroll-behavior: smooth;
   font-family: "Mona Sans", sans-serif;
 }
 
 section {
-  width: 90%;
-  margin: auto;
-}
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+#hero{
+  background: white;
+  width: 100%;
+}
+header{
+  color: black;
+}
+.hero-badge{
+  color: white;
+}
 @theme {
   --font-sans: "Mona Sans", sans-serif;
   --color-white-50: #d9ecff;
@@ -144,7 +155,10 @@ section {
         }
       }
     }
-
+#contact {
+  width: 100%;
+  margin: 0;
+}
     .contact-btn {
       @apply flex;
 
@@ -212,6 +226,7 @@ section {
 
   .cta-button {
     @apply px-4 py-4 rounded-lg bg-black-200 flex justify-center items-center relative cursor-pointer overflow-hidden;
+    width: 18.75em;
 
     .bg-circle {
       @apply absolute -right-10 origin-center top-1/2 -translate-y-1/2 
@@ -248,10 +263,12 @@ section {
 
   .timeline {
     @apply absolute z-30 h-[110%] -top-10 w-14 md:w-28 bg-black;
+    display: none;
   }
 
   .timeline-logo {
     @apply md:size-20 size-10 flex-none rounded-full flex justify-center items-center md:-translate-y-7 border border-black-50 bg-black-100;
+    display: none;
   }
 
   .exp-card-wrapper {
@@ -290,6 +307,7 @@ section {
     input,
     textarea {
       @apply w-full px-4 py-4 md:text-base text-sm placeholder:text-blue-50 bg-blue-100 rounded-md;
+      width: 18.75em;
     }
 
     a {
@@ -377,7 +395,9 @@ section {
     #52aeff 37.51%,
     #fd5c79 62.83%,
     #6d45ce 92.91%
+    
   );
+    display: none;
 }
 
 .gradient-edge:nth-of-type(1) {

@@ -1,22 +1,24 @@
 import React, { useEffect } from 'react';
-import './LogoSlider.css'; // We'll extract the CSS separately
+import './LogoSlider.css'; 
+import HighLevel from '../assets/Logos/HighLevel.png';
+import Mondaycom from '../assets/Logos/monday-logo-x2.png';
+import Webflow from '../assets/Logos/webflow.png';
+import Woocommerce from '../assets/Logos/woocommerce.jpeg';
+import Shopify from '../assets/Logos/Shopifylogo.png';
+import Zapier from '../assets/Logos/zapier.png';
+import Make from '../assets/Logos/make-logo.jpeg';
+
+
 
 const LogoSlider = () => {
   const logos = [
-    { src: "https://viraldistributors.com/wp-content/uploads/2025/09/daisy-logo-1.png", alt: "Daisy logo", url: "https://viraldistributors.com/shop/?product_brand=daisy" },
-    { src: "https://viraldistributors.com/wp-content/uploads/2025/09/bog-logo.png", alt: "BOG logo", url: "https://viraldistributors.com/shop/?product_brand=bog" },
-    { src: "https://viraldistributors.com/wp-content/uploads/2025/09/caldwell-logo-new.png", alt: "Caldwell logo", url: "https://viraldistributors.com/shop/?product_brand=caldwell" },
-    { src: "https://viraldistributors.com/wp-content/uploads/2025/09/crosman-logo.png", alt: "Crosman logo", url: "https://viraldistributors.com/shop/?product_brand=crosman" },
-    { src: "https://viraldistributors.com/wp-content/uploads/2025/09/logo-GAMO.png", alt: "Gamo logo", url: "https://viraldistributors.com/shop/?product_brand=gamo" },
-    { src: "https://viraldistributors.com/wp-content/uploads/2025/09/download-6.png", alt: "MTM Case Gard logo", url: "https://viraldistributors.com/shop/?product_brand=mtm" },
-    { src: "https://viraldistributors.com/wp-content/uploads/2025/09/Estwing-Nav-Logo.png.webp", alt: "Estwing logo", url: "https://viraldistributors.com/shop/?product_brand=estwing" },
-    { src: "https://viraldistributors.com/wp-content/uploads/2025/09/knipex-logo.png", alt: "Knipex logo", url: "https://viraldistributors.com/product-category/sports-outdoor/" },
-    { src: "https://viraldistributors.com/wp-content/uploads/2025/09/download-7.png", alt: "SOG logo", url: "https://viraldistributors.com/product-category/sports-outdoor/" },
-    { src: "https://viraldistributors.com/wp-content/uploads/2025/09/download-8.png", alt: "CTA logo", url: "https://viraldistributors.com/shop/?product_brand=cta" },
-    { src: "https://viraldistributors.com/wp-content/uploads/2025/09/download-9.png", alt: "flexzilla logo", url: "https://viraldistributors.com/shop/?product_brand=flexzilla" },
-    { src: "https://viraldistributors.com/wp-content/uploads/2025/09/Lucas-Oil-Logo-White_v2.png", alt: "Lucas Oil logo", url: "https://viraldistributors.com/wp-content/uploads/2025/09/daisy-logo-1.png" },
-    { src: "https://viraldistributors.com/wp-content/uploads/2025/09/download-11.png", alt: "No spill cans logo", url: "https://viraldistributors.com/shop/?product_brand=no-spill-inc" },
-    { src: "https://viraldistributors.com/wp-content/uploads/2025/09/ptlogo-shine.webp", alt: "Performance tool logo", url: "https://viraldistributors.com/product-category/sports-outdoor/" },
+    { src: HighLevel, alt: "HighLevel logo"},
+    { src: Mondaycom, alt: "Monday.com logo" },
+    { src: Webflow, alt: "Webflow logo" },
+    { src: Woocommerce, alt: "Woocommerce logo" },
+    { src: Shopify, alt: "Shopify logo" },
+    { src: Zapier, alt: "Zapier logo" },
+    { src: Make, alt: "Make logo" },
   ];
 
   const handleLogoClick = (url) => {
