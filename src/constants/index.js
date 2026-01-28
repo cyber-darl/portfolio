@@ -326,7 +326,7 @@ const socialImgs = [
   {
     name: 'linkedin',
     imgPath: '/images/linkedin.png',
-    linkPath: 'https://www.linkedin.com/in/kpeale-frontend-queen-65bbaa1a6/',
+    linkPath: 'https://www.linkedin.com/in/darlington-onos/',
   },
 ];
 

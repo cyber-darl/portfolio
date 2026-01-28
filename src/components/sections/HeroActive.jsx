@@ -55,11 +55,9 @@ const HeroActive = () => {
               <h1>I architect complete solutions </h1>
            
             </div>
-            <p className='text-black-50 md:text-xl relative z-10 pointer-events-none max-w-[300px] text-center sm:max-w-[550px]'>
-              I create end-to-end products that work flawlessly and deliver measurable results.
-            </p>
               <p className='text-black-50 md:text-xl relative z-10 pointer-events-none max-w-[300px] text-center sm:max-w-[550px]'>
-          ✨ Top-Rated Software Engineer (top 10% of all talent on Upwork) with a consistent track record of 5-star reviews from nearly every client, reflecting dedication to consistently going above and beyond expectations.
+          ✨ Top-Rated Developer (top 10% of all talent on Upwork).  I’m the tech-savvy partner behind your brand that makes sure all your software work together effortlessly and everything runs smoothly daily.
+
             </p>
           
             <div className='flex flex-col items-center justify-center mx-auto'>
@@ -69,7 +67,7 @@ const HeroActive = () => {
                 href = 'https://www.upwork.com/freelancers/~01a56c22fcbf96bd04'
               />
                 <p className='text-black-50 md:text-xl relative z-10 pointer-events-none mt-[2rem] max-w-[300px] text-center sm:max-w-[550px]'>
-      I have a knack for creating automated workflows and integrations across a single app or multiple software. Hence, my prowess covers CRM, PM, Funnels, Websites and Webapps. I have proficiency in the platforms below:
+      I have a knack for creating automated workflows and integrations across a single app or multiple software. Chances are if your brand uses a platform for CRM, PM, email marketing or handling websites, I have done some work in there before.
             </p>
             </div>
           </div>
