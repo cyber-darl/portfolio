@@ -26,7 +26,7 @@ const Button = ({ text, className, id, href }) => {
         <p className='text'>{text}</p>
         <div className='arrow-wrapper'>
           <img
-            src='/images/arrow-down.svg'
+            src='/images/arrow-right.svg'
             alt='arrow'
           />
         </div>

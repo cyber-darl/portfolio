@@ -1,3 +1,35 @@
+const items = [
+   {
+  id: 1,
+  image: '/images/Certificates/Devops_agile.png',
+  issuer: 'Cloud Native, Devops, Agile Essentials', 
+  link: 'https://www.coursera.org/account/accomplishments/verify/QBBU8PTPHTU8', 
+  verifyText: 'Verify Certificate' 
+},
+    {
+      id: 2,
+      image:  '/images/Certificates/frontend.png',
+      issuer: 'IBM Frontend Development Professional Certificate', 
+      link: 'https://www.coursera.org/account/accomplishments/professional-cert/8C5SWSK5HFEZ', 
+      verifyText: 'Verify Certificate' 
+    },
+    {
+      id: 3,
+      image: '/images/Certificates/Software.png',
+      issuer: 'Software Engineering Essentials', 
+      link: 'https://www.coursera.org/account/accomplishments/verify/54K9SF4NUQLC', 
+      verifyText: 'Verify Certificate' 
+    },
+    {
+      id: 4,
+      image: '/images/Certificates/UI_UX.png',
+      issuer: 'Designing User interfaces and Experience (UI/UX)', 
+      link: 'https://www.coursera.org/account/accomplishments/verify/ZA92WGZEMYP9', 
+      verifyText: 'Verify Certificate' 
+    }
+  ];
+
+
 const navLinks = [
   {
     name: 'Work',
@@ -342,4 +374,5 @@ export {
   techStackIcons,
   techStackImgs,
   navLinks,
+  items
 };

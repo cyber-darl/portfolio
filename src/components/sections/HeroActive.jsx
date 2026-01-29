@@ -38,13 +38,9 @@ const HeroActive = () => {
                     {words.map((word) => (
                       <span
                         key={word.text}
-                        className='flex items-center md:gap-3 gap-1 pb-2'
+                        className=''
                       >
-                        <img
-                          src={word.imgPath}
-                          alt={word.text}
-                          className='xl:size-12 md:size-10 size-10 md:p-2 p-1 rounded-full bg-white-50'
-                        />
+                      
                         <span>{word.text}</span>
                       </span>
                     ))}
@@ -52,7 +48,7 @@ const HeroActive = () => {
                 </span>
               </h1>
 
-              <h1>I architect complete solutions </h1>
+              <h1 className='hero-text-2'>I architect complete solutions </h1>
            
             </div>
               <p className='text-black-50 md:text-xl relative z-10 pointer-events-none max-w-[300px] text-center sm:max-w-[550px]'>
@@ -62,7 +58,6 @@ const HeroActive = () => {
           
             <div className='flex flex-col items-center justify-center mx-auto'>
               <Button
-                className='  md:w-80 md:h-16 w-60 h-12'
                 text='My Upwork Profile'
                 href = 'https://www.upwork.com/freelancers/~01a56c22fcbf96bd04'
               />

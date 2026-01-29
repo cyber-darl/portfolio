@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar/Navbar';
+import Certified from './components/sections/certified';
 import HeroActive from './components/sections/HeroActive';
 import ShowcaseSection from './components/sections/ShowcaseSection';
 import SoftSkills from './components/sections/SoftSkills';
@@ -17,11 +18,10 @@ const App = () => {
       <Navbar />
       <HeroActive/>
       <Tron/>
-      <ShowcaseSection/>
       <SoftSkills/>
-      <Experience/>
+      <ShowcaseSection/>
+      <Certified/>
       <TechStack/>
-      <Testimonials/>
       <Contact/>
       <Footer/>
 
