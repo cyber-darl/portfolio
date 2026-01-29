@@ -343,7 +343,7 @@ const socialImgs = [
     name: 'insta',
     imgPath: '/images/insta.png',
     linkPath:
-      'https://www.instagram.com/kpeal_eeee/profilecard/?igsh=Y2EwamJvaW0ybnJs',
+      '#',
   },
   {
     name: 'fb',
@@ -353,7 +353,7 @@ const socialImgs = [
   {
     name: 'x',
     imgPath: '/images/x.png',
-    linkPath: 'https://x.com/prud_ie',
+    linkPath: '#',
   },
   {
     name: 'linkedin',
