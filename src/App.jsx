@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar/Navbar';
-import Certified from './components/sections/certified';
+import Certified from './components/sections/Certified';
 import HeroActive from './components/sections/HeroActive';
 import ShowcaseSection from './components/sections/ShowcaseSection';
 import SoftSkills from './components/sections/SoftSkills';
