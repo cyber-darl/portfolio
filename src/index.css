@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 :root {
   --gradient: radial-gradient(circle, #e5e5e5 0%, #fff 100%);
 }
@@ -6,34 +7,44 @@
 html,
 body {
   width: 100%;
-
   background-color: black;
   color: white;
   scroll-behavior: smooth;
   font-family: "Mona Sans", sans-serif;
 }
-.hero-text-2{
+
+@media (max-width: 768px) {
+  .hero-text > h1 {
+    margin-left: 12px;
+  }
+}
+
+.hero-text-2 {
   text-align: center;
 }
-section {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
 
+section {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .soft-skills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-#hero{
+
+#hero {
   background: white;
   width: 100%;
 }
-header{
+
+header {
   color: black;
 }
-.hero-badge{
+
+.hero-badge {
   color: white;
 }
 
@@ -58,7 +69,7 @@ header{
     gap: calc(var(--spacing) * 7);
     display: flex;
     align-items: center;
-}
+  }
 }
 
 @layer components {
@@ -108,7 +119,7 @@ header{
   }
 
   .hero-text {
-    @apply flex flex-col justify-center md:text-[60px] text-[30px] font-semibold relative z-10 pointer-events-none p-[8px];
+    @apply flex flex-col justify-center md:text-[56px] text-[30px] font-semibold relative z-10 pointer-events-none p-[8px];
     img {
       @apply size-8 md:size-10 object-contain;
     }
@@ -163,10 +174,12 @@ header{
         }
       }
     }
-#contact {
-  width: 100%;
-  margin: 0;
-}
+
+    #contact {
+      width: 100%;
+      margin: 0;
+    }
+
     .contact-btn {
       @apply flex;
 
@@ -181,7 +194,7 @@ header{
   }
 
   .app-showcase {
-    @apply w-full mt-2 px-5 md:px-20 py-10 md:py-20 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 justify-center mx-auto my-0  items-center gap-4 ;
+    @apply w-full mt-2 px-5 md:px-20 py-10 md:py-20 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 justify-center mx-auto my-0 items-center gap-4;
 
     .showcaselayout {
       @apply flex xl:flex-row flex-col gap-10 justify-between;
@@ -191,7 +204,7 @@ header{
       @apply h-full flex flex-col justify-between xl:w-[60%];
 
       .image-wrapper {
-        @apply  h-60 w-60 lg:w-100 relative;
+        @apply h-60 w-60 lg:w-100 relative;
 
         img {
           @apply w-full h-full object-cover rounded-xl absolute inset-0;
@@ -229,27 +242,50 @@ header{
   }
 
   .cta-wrapper {
-    @apply relative z-20 cursor-pointer;
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
   }
 
   .cta-button {
     @apply px-4 py-4 rounded-lg bg-black-200 flex justify-center items-center relative cursor-pointer overflow-hidden;
-    width: 20.75em;
+    width: 80%;
 
     .bg-circle {
-      @apply absolute -right-10 origin-center top-1/2 -translate-y-1/2 
-        w-[120%] h-[120%] group-hover:size-10 group-hover:right-10
-        rounded-full bg-white-50 transition-all duration-500;
+      @apply absolute -right-10 origin-center top-1/2 -translate-y-1/2 w-[120%] h-[120%] rounded-full bg-white-50 transition-all duration-500;
+
+      &:is(:where(.group):hover *) {
+        @media (hover: hover) {
+          width: calc(var(--spacing) * 10);
+          height: calc(var(--spacing) * 10);
+          position: absolute;
+          right: 4%;
+        }
+      }
     }
 
     .text {
-      @apply uppercase md:text-lg text-black transition-all duration-500
-        group-hover:text-white-50 group-hover:-translate-x-5 xl:translate-x-0 -translate-x-5;
+      @apply uppercase md:text-lg text-black transition-all duration-500 group-hover:text-white-50 group-hover:-translate-x-5 xl:translate-x-0 -translate-x-5;
     }
 
     .arrow-wrapper {
-      @apply group-hover:bg-white-50 size-10 rounded-full absolute right-10 top-1/2 
-        -translate-y-1/2 flex justify-center items-center overflow-hidden;
+      position: absolute;
+      top: calc(1/2 * 100%);
+      right: 4%;
+      display: flex;
+      width: calc(var(--spacing) * 10);
+      height: calc(var(--spacing) * 10);
+      --tw-translate-y: calc(calc(1/2 * 100%) * -1);
+      translate: var(--tw-translate-x, 0) var(--tw-translate-y);
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border-radius: calc(infinity * 1px);
+      @apply group-hover:bg-white-50 transition-all duration-500;
 
       img {
         @apply size-5 xl:-translate-y-32 translate-y-0 animate-bounce group-hover:translate-y-0 transition-all duration-500;
@@ -366,30 +402,14 @@ header{
 }
 
 @keyframes wordSlider {
-  0% {
-    transform: translateY(0.5%);
-  }
-  12.5% {
-    transform: translateY(-12.5%);
-  }
-  25% {
-    transform: translateY(-25%);
-  }
-  37.5% {
-    transform: translateY(-37.5%);
-  }
-  50% {
-    transform: translateY(-50%);
-  }
-  62.5% {
-    transform: translateY(-62.5%);
-  }
-  75% {
-    transform: translateY(-75%);
-  }
-  87.5% {
-    transform: translateY(-87.5%);
-  }
+  0% { transform: translateY(0.5%); }
+  12.5% { transform: translateY(-12.5%); }
+  25% { transform: translateY(-25%); }
+  37.5% { transform: translateY(-37.5%); }
+  50% { transform: translateY(-50%); }
+  62.5% { transform: translateY(-62.5%); }
+  75% { transform: translateY(-75%); }
+  87.5% { transform: translateY(-87.5%); }
 }
 
 /* Hero Text slider ends */
@@ -403,9 +423,8 @@ header{
     #52aeff 37.51%,
     #fd5c79 62.83%,
     #6d45ce 92.91%
-    
   );
-    display: none;
+  display: none;
 }
 
 .gradient-edge:nth-of-type(1) {
@@ -417,6 +436,7 @@ header{
     rgba(255, 255, 255, 0) 100%
   );
 }
+
 .gradient-edge:nth-of-type(2) {
   right: 0;
   background: linear-gradient(
@@ -432,6 +452,7 @@ header{
   overflow: hidden;
   position: relative;
 }
+
 .marquee-box {
   display: flex;
   align-items: center;
@@ -441,16 +462,14 @@ header{
   overflow: hidden;
   animation: marquee 60s linear infinite;
 }
+
 .marquee-item {
   float: left;
 }
+
 @keyframes marquee {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -100%;
-  }
+  0% { left: 0; }
+  100% { left: -100%; }
 }
 /* marquee end */
 

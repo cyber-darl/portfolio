@@ -1,8 +1,9 @@
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-
+import Button from '../Button';
 import TitleHeader from '../TitleHeader';
 import ContactExperience from '../models/contact/ContactExperience';
+
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -96,20 +97,14 @@ const Contact = () => {
                   />
                 </div>
 
-                <button type='submit'>
-                  <div className='cta-button group'>
-                    <div className='bg-circle' />
-                    <p className='text'>
-                      {loading ? 'Sending...' : 'Send Message'}
-                    </p>
-                    <div className='arrow-wrapper'>
-                      <img
-                        src='/images/arrow-down.svg'
-                        alt='arrow'
-                      />
-                    </div>
-                  </div>
-                </button>
+                {/* Updated Button Component Usage */}
+                <Button 
+                  type='submit' 
+                  text={loading ? 'Sending...' : 'Send Message'} 
+                  icon='/images/arrow-down.svg'
+                  disabled={loading}
+                />
+
               </form>
             </div>
           </div>

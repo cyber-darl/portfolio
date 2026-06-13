@@ -7,7 +7,8 @@ import Woocommerce from '../assets/Logos/woocommerce.jpeg';
 import Shopify from '../assets/Logos/Shopifylogo.png';
 import Zapier from '../assets/Logos/zapier.png';
 import Make from '../assets/Logos/make-logo.jpeg';
-
+import ActiveCampaign from '../assets/Logos/ActiveCampaign.png';
+import Klaviyo from '../assets/Logos/Klaviyo-logo.jpeg';
 
 
 const LogoSlider = () => {
@@ -16,9 +17,12 @@ const LogoSlider = () => {
     { src: Mondaycom, alt: "Monday.com logo" },
     { src: Webflow, alt: "Webflow logo" },
     { src: Woocommerce, alt: "Woocommerce logo" },
+    { src: Klaviyo, alt: "Klaviyo logo" },
     { src: Shopify, alt: "Shopify logo" },
     { src: Zapier, alt: "Zapier logo" },
     { src: Make, alt: "Make logo" },
+    { src: ActiveCampaign, alt: "ActiveCampaign logo" },
+ 
   ];
 
   const handleLogoClick = (url) => {
