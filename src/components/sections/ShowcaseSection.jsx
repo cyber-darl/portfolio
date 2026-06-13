@@ -66,25 +66,24 @@ const ShowcaseSection = () => {
         >
           <div className='image-wrapper bg-[#ffe7eb]'>
             <img
-              src='/images/quickstayy.png'
-              alt='ryde'
+              src='/images/stay-healthy.png'
+              alt='stayhealthy'
             />
           </div>
           <div className='text-content mt-2'>
-            <h2>Quickstay </h2>
+            <h2>StayHealthy Inc.</h2>
             <p className='text-white-50 text-[16px] max-w-[450px] '>
-              Developed a comprehensive hotel management system for booking and
-              reservation handling.
+             An app to book an appointment with Medical practitioners. Leave reviews, edit your profile, check medical reports and more!
             </p>
             <div className='flex flex-row justify-between items-center gap-2 mt-2'>
               <a
-                href='https://quickstayy-hotel.netlify.app/'
+                href='https://blank-react.vercel.app/'
                 className='text-white-50 text-sm '
               >
                 View Live Project
               </a>
               <a
-                href='https://github.com/kpeale/hotelApp'
+                href='https://github.com/cyber-darl/blank-react'
                 className='text-white-50 text-sm  '
               >
                 View on Github
@@ -99,25 +98,25 @@ const ShowcaseSection = () => {
         >
           <div className='image-wrapper'>
             <img
-              src='/images/project-spotify.png'
-              alt='ryde'
+              src='/images/drip-with-souza.png'
+              alt='drip-with-souza'
             />
           </div>
           <div className='text-content mt-2'>
-            <h2>Spotify Clone</h2>
+            <h2>Drip With Souza
+            </h2>
             <p className='text-white-50 text-[16px] max-w-[450px] '>
-              Created a fully functional music streaming application using local
-              data.
+              Created this e-commerce website, for an elite fashion brand. Shop unique pieces that make you stand out.
             </p>
             <div className='flex flex-row justify-between items-center gap-2 mt-2'>
               <a
-                href='https://spotify-kpeale.netlify.app/'
+                href='https://drip-with-souza-2v7u.vercel.app/'
                 className='text-white-50 text-sm  '
               >
                 View Live Project
               </a>
               <a
-                href='https://github.com/kpeale/spotify-clone'
+                href='https://github.com/cyber-darl/Drip_with_Souza'
                 className='text-white-50 text-sm  '
               >
                 View on Github
@@ -132,26 +131,25 @@ const ShowcaseSection = () => {
         >
           <div className='image-wrapper'>
             <img
-              src='/images/project-sleep.png'
-              alt='ryde'
+              src='/images/Vanguard-Logix.png'
+              alt='Vanguard Logix'
             />
           </div>
           <div className='text-content mt-2'>
-            <h2>Sleep Tracker</h2>
+            <h2>VL Logistics Company</h2>
             <p className='text-white-50 text-[16px] max-w-[450px] '>
-              Built a comprehensive health monitoring application that tracks
-              user sleep patterns. .
+             Vanguard Logix is a logistics and supply chain agency helping brands scale their operations.
             </p>
 
             <div className='flex flex-row justify-between items-center gap-2 mt-2'>
               <a
-                href='https://sleep-trackerr.netlify.app/'
+                href='https://vv-website-five.vercel.app/'
                 className='text-white-50 text-sm  '
               >
                 View Live Project
               </a>
               <a
-                href='https://github.com/kpeale/sleep-tracker'
+                href='https://github.com/cyber-darl/Vanguard-Logix'
                 className='text-white-50 text-sm  '
               >
                 View on Github
@@ -166,25 +164,24 @@ const ShowcaseSection = () => {
         >
           <div className='image-wrapper'>
             <img
-              src='/images/project-audiophile.png'
-              alt='ryde'
+              src='/images/budget-app.png'
+              alt='budget app'
             />
           </div>
           <div className='text-content mt-2'>
-            <h2>Audiophile</h2>
+            <h2>A Budget App</h2>
             <p className='text-white-50 text-[16px] max-w-[450px] '>
-              Built a modern e-commerce platform specializing in premium
-              electronic gadgets and audio equipment
+              A simple but effective budget app to manage income and expenditure from different departments in a company. 
             </p>
             <div className='flex flex-row justify-between items-center gap-2 mt-2'>
               <a
-                href='https://audiophile-storee.netlify.app/'
+                href='https://ejtos-react-budget-app-five.vercel.app/'
                 className='text-white-50 text-sm  '
               >
                 View Live Project
               </a>
               <a
-                href='https://github.com/kpeale/audiophile-store'
+                href='https://github.com/cyber-darl/ejtos-react_budget_app'
                 className='text-white-50 text-sm  '
               >
                 View on Github
@@ -199,59 +196,24 @@ const ShowcaseSection = () => {
         >
           <div className='image-wrapper'>
             <img
-              src='/images/project-cv.png'
-              alt='ryde'
+              src='/images/jiggybot.png'
+              alt='jiggybot'
             />
           </div>
           <div className='text-content mt-2'>
-            <h2>CV Analyser</h2>
+            <h2>Jiggy Bot</h2>
             <p className='text-white-50 text-[16px] max-w-[450px] '>
-              Built a web application that analyzes CVs for job applications,
-              helping users optimize their resumes.
+            A simple telegram bot that interacts with wallets on TON. This project is from the Stepik Ton and Telegram Blockchain Course. 
             </p>
             <div className='flex flex-row justify-between items-center gap-2 mt-2'>
               <a
-                href='https://cv-analyser-nu.vercel.app/'
+                href='https://t.me/cyber_darl_jiggy_bot'
                 className='text-white-50 text-sm  '
               >
                 View Live Project
               </a>
               <a
-                href='https://github.com/kpeale/CVAnalyser'
-                className='text-white-50 text-sm  '
-              >
-                View on Github
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div
-          className='rounded-sm'
-          ref={project6Ref}
-        >
-          <div className='image-wrapper'>
-            <img
-              src='/images/apple.png'
-              alt='ryde'
-            />
-          </div>
-          <div className='text-content mt-2'>
-            <h2>Apple’s Macbook Clone</h2>
-            <p className='text-white-50 text-[16px] max-w-[450px] '>
-              I cloned the popular apple website using REACT, Three.JS and GSAP
-              for mind blowing 3d animations
-            </p>
-            <div className='flex flex-row justify-between items-center gap-2 mt-2'>
-              <a
-                href='https://apple-clone-lac-gamma.vercel.app/'
-                className='text-white-50 text-sm  '
-              >
-                View Live Project
-              </a>
-
-              <a
-                href='https://github.com/kpeale/apple'
+                href='https://github.com/cyber-darl/soft'
                 className='text-white-50 text-sm  '
               >
                 View on Github
