@@ -58,7 +58,7 @@ const HeroActive = () => {
           
             <div className='flex flex-col items-center justify-center mx-auto'>
               <Button
-                text='Check my reviews/portfolio on Upwork'
+                text='My Upwork Profile'
                 href = 'https://www.upwork.com/freelancers/~01a56c22fcbf96bd04'
               />
                 <p className='text-black-50 md:text-xl relative z-10 pointer-events-none mt-[2rem] max-w-[300px] text-center sm:max-w-[550px]'>
