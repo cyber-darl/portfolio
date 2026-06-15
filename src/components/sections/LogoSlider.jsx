@@ -8,7 +8,7 @@ import Shopify from '../assets/Logos/Shopifylogo.png';
 import Zapier from '../assets/Logos/zapier.png';
 import Make from '../assets/Logos/make-logo.jpeg';
 import ActiveCampaign from '../assets/Logos/ActiveCampaign.png';
-import Klaviyo from '../assets/Logos/Klaviyo-logo.jpeg';
+import Klaviyo from '../assets/Logos/klaviyo-logo.jpeg';
 
 
 const LogoSlider = () => {
