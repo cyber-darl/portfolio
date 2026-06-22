@@ -178,7 +178,7 @@ const ShowcaseSection = () => {
           </div>
           <div className='text-content mt-4 flex flex-col flex-grow justify-between'>
             <div>
-              <h2 className="text-xl md:text-xl font-semibold">A Budget App</h2>
+              <h2 className="text-xl md:text-xl font-semibold">Redux Budget App</h2>
               <p className='text-white-50 text-[16px] max-w-[450px] mt-2'>
                 A simple but effective budget app to manage income and expenditure from different departments in a company. 
               </p>
@@ -213,7 +213,10 @@ const ShowcaseSection = () => {
             <div>
               <h2 className="text-xl md:text-xl font-semibold">Jiggy Bot</h2>
               <p className='text-white-50 text-[16px] max-w-[450px] mt-2'>
-              A simple telegram bot that interacts with wallets on TON. This project is from the Stepik Ton and Telegram Blockchain Course. 
+              A simple telegram bot that interacts with wallets on TON. This project is from the        <a href='https://stepik.org/course/176754/promo'  className="underline"
+              >
+          Stepik Ton and Telegram Blockchain Course. 
+              </a>
               </p>
             </div>
             <div className='flex flex-row justify-between items-center gap-2 mt-4'>

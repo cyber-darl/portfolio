@@ -44,8 +44,8 @@ const navLinks = [
     link: '#skills',
   },
   {
-    name: 'Testimonials',
-    link: '#testimonials',
+    name: 'Certifications',
+    link: '#certified',
   },
 ];
 

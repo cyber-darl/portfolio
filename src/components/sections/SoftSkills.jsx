@@ -4,7 +4,7 @@ import TitleHeader from '../TitleHeader';
 
 const SoftSkills = () => {
   return (
-    <section className='soft-skills w-full padding-x-lg'>
+    <section className='soft-skills w-full padding-x-lg' id = "experience">
       <TitleHeader
         title='A little background story'
         subtitle=''

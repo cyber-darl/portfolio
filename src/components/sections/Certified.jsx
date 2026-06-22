@@ -9,7 +9,7 @@ const Certified = () => {
   const [active, setActive] = React.useState(null);
 
   return (
-    <div className="certified">
+    <div className="certified" id ="certified">
       <TitleHeader
           title='Certifications'
         />
