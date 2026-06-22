@@ -206,7 +206,7 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      'Kpeale brought creativity and technical expertise to the team, significantly frontend performance of the different companies’ websites we have worked on. Her work has been invaluable in delivering faster experiences.',
+      'Jiggy brought creativity and technical expertise to the team, significantly frontend performance of the different companies’ websites we have worked on. Her work has been invaluable in delivering faster experiences.',
     imgPath: '/images/exp1.png',
     logoPath: '/images/logos/kp.png',
     title: 'Frontend Developer',
@@ -220,7 +220,7 @@ const expCards = [
   },
   {
     review:
-      'Kpeale’s contributions to the plugin’s website was amazing. She showed mastery in her frontend skills .',
+      'Jiggy’s contributions to the plugin’s website was amazing. She showed mastery in her frontend skills .',
     imgPath: '/images/exp2.png',
     logoPath: '/images/logos/kp.png',
     title: 'Frontend Developer',
@@ -234,7 +234,7 @@ const expCards = [
   },
   {
     review:
-      'Kpeale’s work on Creator’s web app brought a high level of quality and efficiency. She showed resiliency in learning new tools that she was not used to.',
+      'Jiggy’s work on Creator’s web app brought a high level of quality and efficiency. She showed resiliency in learning new tools that she was not used to.',
     imgPath: '/images/exp3.png',
     logoPath: '/images/logos/kp.png',
     title: 'Frontend Developer',
@@ -248,7 +248,7 @@ const expCards = [
   },
   {
     review:
-      'Kpeale’s work on LocumSpace’s website  brought a high level of quality and efficiency. She worked on the companys website to improve performance.',
+      'Jiggy’s work on LocumSpace’s website  brought a high level of quality and efficiency. She worked on the companys website to improve performance.',
     imgPath: '/images/exp3.png',
     logoPath: '/images/logos/kp.png',
     title: 'Frontend Developer',
@@ -263,7 +263,7 @@ const expCards = [
 
   {
     review:
-      'Kpeale is very diligent, talented and a fast learner. She delivered all her tasks on time ',
+      'Jiggy is very diligent, talented and a fast learner. She delivered all her tasks on time ',
     imgPath: '/images/exp3.png',
     logoPath: '/images/logos/kp.png',
     title: 'Frontend Developer',
@@ -297,48 +297,53 @@ const testimonials = [
     name: 'Ajibola Ajiboye',
     mentions: '@estherhoward',
     review:
-      'Kpeale is an exceptional frontend developer with an eye for detail. Her efficiency and ability to turn complex ideas into clean, functional designs make her a valuable teammate on any project.',
+      'Jiggy is an exceptional frontend developer with an eye for detail. Her efficiency and ability to turn complex ideas into clean, functional designs make her a valuable teammate on any project.',
     imgPath: '/images/client1.png',
   },
   {
     name: 'Favorite Jerome',
     mentions: '@wadewarren',
     review:
-      'Working with Kpeale was a fantastic experience. She explains complex frontend concepts in the simplest way, ensuring every team member is on the same page. Her technical competence and consistency are outstanding.',
+      'Working with Jiggy was a fantastic experience. She explains complex frontend concepts in the simplest way, ensuring every team member is on the same page. Her technical competence and consistency are outstanding.',
     imgPath: '/images/client3.png',
   },
   {
     name: 'Daniel Obisanya',
     mentions: '@guyhawkins',
     review:
-      'Collaborating with Kpeale was an absolute pleasure. Her professionalism, problem-solving mindset, and strong understanding of frontend architecture consistently improve team productivity. She’s truly dedicated to excellence.',
+      'Collaborating with Jiggy was an absolute pleasure. Her professionalism, problem-solving mindset, and strong understanding of frontend architecture consistently improve team productivity. She’s truly dedicated to excellence.',
     imgPath: '/images/client2.png',
   },
   {
     name: 'Benjamin Ogunrika',
     mentions: '@marvinmckinney',
     review:
-      'Kpeale’s approach to frontend development is both structured and creative. She writes efficient, scalable code and has a great talent for mentoring beginners to build confidence in their craft.',
+      'Jiggy’s approach to frontend development is both structured and creative. She writes efficient, scalable code and has a great talent for mentoring beginners to build confidence in their craft.',
     imgPath: '/images/client5.png',
   },
   {
     name: 'Paul Eke',
     mentions: '@floydmiles',
     review:
-      'Kpeale’s mastery of frontend technologies is impressive. She builds responsive, high-performing interfaces and consistently meets deadlines without compromising quality. A true professional through and through!',
+      'Jiggy’s mastery of frontend technologies is impressive. She builds responsive, high-performing interfaces and consistently meets deadlines without compromising quality. A true professional through and through!',
     imgPath: '/images/client4.png',
   },
   {
     name: 'Abigael Ayo-Olalusi',
     mentions: '@albertflores',
     review:
-      'Kpeale delivers beyond expectations every single time. Her mix of technical skill, attention to performance, and clear communication make her one of the most reliable frontend developers I’ve worked with.',
+      'Jiggy delivers beyond expectations every single time. Her mix of technical skill, attention to performance, and clear communication make her one of the most reliable frontend developers I’ve worked with.',
     imgPath: '/images/client6.png',
   },
 ];
 
 
 const socialImgs = [
+    {
+    name: 'linkedin',
+    imgPath: '/images/linkedin.png',
+    linkPath: 'https://www.linkedin.com/in/darlington-onos/',
+  },
   {
     name: 'insta',
     imgPath: '/images/insta.png',
@@ -354,12 +359,7 @@ const socialImgs = [
     name: 'x',
     imgPath: '/images/x.png',
     linkPath: '#',
-  },
-  {
-    name: 'linkedin',
-    imgPath: '/images/linkedin.png',
-    linkPath: 'https://www.linkedin.com/in/darlington-onos/',
-  },
+  }
 ];
 
 export {
