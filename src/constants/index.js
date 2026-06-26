@@ -359,7 +359,7 @@ const socialImgs = [
     name: 'x',
     imgPath: '/images/x.png',
     linkPath: '#',
-  }
+  } 
 ];
 
 export {

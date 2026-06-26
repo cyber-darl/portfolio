@@ -98,12 +98,17 @@ const Contact = () => {
                 </div>
 
                 {/* Updated Button Component Usage */}
-                <Button 
-                  type='submit' 
-                  text={loading ? 'Sending...' : 'Send Message'} 
-                  icon='/images/arrow-down.svg'
+   <button
+                  type='submit'
                   disabled={loading}
-                />
+                  className='group flex w-full justify-center'
+                >
+                  <div className='w-full px-5 py-2 rounded-lg bg-white text-black text-center group-hover:bg-black-50 transition-colors duration-300'>
+                    <span className='group-hover:text-white transition-colors duration-300 cursor-pointer'>
+                      {loading ? 'Sending...' : 'Send Message'}
+                    </span>
+                  </div>
+                </button>
 
               </form>
             </div>
